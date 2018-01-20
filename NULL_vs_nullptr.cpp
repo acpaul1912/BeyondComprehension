@@ -5,7 +5,7 @@
   In C++, NULL is by default 0 (defined in most of the complier) and not necessarily always a pointer.
   I will say that NULL is more of C style thing brought to C++. Most importantly NULL is a macro . 
 
-  nullptr is really a ìnull pointerî and always a pointer. If you try assigning it to integer. 
+  nullptr is really a ‚Äúnull pointer‚Äù and always a pointer. If you try assigning it to integer. 
   It will cause an error.
 
   nullptrt is type safe compare to NULL and you should always use nullptr instead of NULL.
@@ -32,7 +32,7 @@ int main() {
 
 	int *q = nullptr;
 
-	//nullptr value is also  0 but you can use it as integer type . 
+	//nullptr value is also  0 but you can not use q  as integer type . 
 	std::cout << (q == 0) << std::endl;
 
 }
